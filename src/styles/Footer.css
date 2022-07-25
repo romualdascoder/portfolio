@@ -1,0 +1,135 @@
+.footerSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 500px;
+  background-color: #f7f8fb;
+  padding: 4rem;
+}
+
+.footerContainer {
+  max-width: 1500px;
+  width: 100%;
+}
+
+.footerTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 300px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.footerTitle h1 {
+  font-size: 4rem;
+}
+
+.footerSecondSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100px;
+  padding: 4rem 0rem 4rem 0rem;
+}
+
+.footerSecondSection img {
+  width: 65px;
+  height: 50px;
+}
+
+.footerSecondSection p {
+  padding-bottom: 0.7rem;
+  text-align: end;
+  color: #555555;
+}
+
+.footerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  width: 100%;
+  min-height: 150px;
+  border-radius: 90px;
+  background-color: #000;
+  z-index: 999;
+  border: 1px solid #000;
+}
+
+.footerBtn a {
+  color: #fff;
+  transition-duration: 0.7s;
+}
+
+.footerBtn a:hover {
+  transform: rotate(-25deg);
+}
+
+@media screen and (max-width: 1600px) {
+  .footerBtn {
+    max-width: 130px;
+    width: 100%;
+    min-height: 130px;
+  }
+  .footerTitle h1 {
+    font-size: 3.1rem;
+  }
+  .footerSecondSection p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .footerSection {
+    padding: 1.5rem;
+  }
+
+  .footerContainer {
+    margin-top: 3rem;
+  }
+
+  .footerTitle h1 {
+    font-size: 2.5rem;
+  }
+  .footerTitle {
+    flex-direction: column;
+  }
+  .footerBtn {
+    margin: 3rem 0rem 3rem 0rem;
+    max-width: 110px;
+    width: 100%;
+    min-height: 110px;
+    text-align: center;
+  }
+
+  .footerBtn a {
+    color: #fff;
+    font-size: 1rem;
+    max-width: 90px;
+    width: 100%;
+  }
+
+  .footerSecondSection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0rem 1.5rem 0rem;
+  }
+
+  .footerSecondSection img {
+    margin-bottom: 1.5rem;
+  }
+  .footerSecondSection p {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .footerTitle h1 {
+    font-size: 2rem;
+  }
+  
+}

@@ -1,0 +1,89 @@
+.aboutSection {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.aboutTitle {
+  font-size: 1.65rem;
+  max-width: 800px;
+  width: 100%;
+  margin-right: 5rem;
+}
+
+.aboutData {
+  padding-top: 1rem;
+  max-width: 700px;
+  width: 100%;
+}
+
+.aboutData > div {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.aboutData > div > h2 {
+  padding-bottom: 2rem;
+}
+
+.aboutData > div > p {
+  padding-bottom: 1.5rem;
+  color: #555;
+}
+
+@media screen and (max-width: 1600px) {
+  .aboutTitle {
+    font-size: 1.4rem;
+    max-width: 800px;
+    width: 100%;
+  }
+  .aboutData > div > h2 {
+    font-size: 1.3rem;
+  }
+  .aboutData > div > p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .aboutContainer {
+    flex-wrap: wrap;
+  }
+
+  .aboutTitle {
+    max-width: 100%;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-right: 0rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboutSection {
+    padding: 4rem 1.5rem 6rem 1.5rem;
+  }
+  .aboutTitle {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aboutTitle {
+    font-size: 0.9rem;
+    padding-bottom: 3rem;
+  }
+  .aboutData > div > h2 {
+    font-size: 1.3rem;
+  }
+}

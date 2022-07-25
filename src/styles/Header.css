@@ -1,0 +1,125 @@
+.headerSection {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.headerContainer {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+
+.headerContainer h1 {
+  font-size: 7.5rem;
+}
+
+.headerTitle {
+  max-width: 1070px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.underline {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 2rem;
+}
+
+.headerName {
+  max-width: 220px;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0rem 2rem 0rem;
+}
+.headerName h2 {
+  color: #fff;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .headerContainer {
+    max-width: 885px;
+    width: 100%;
+  }
+  .headerContainer h1 {
+    font-size: 6.2rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .headerContainer {
+    max-width: 780px;
+    width: 100%;
+  }
+  .headerContainer h1 {
+    font-size: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .headerContainer {
+    max-width: 640px;
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .headerContainer h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .headerContainer {
+    max-width: 430px;
+    width: 100%;
+  }
+  .headerContainer h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .headerContainer {
+    max-width: 340px;
+    width: 100%;
+  }
+  .headerContainer h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .headerSection {
+    padding: 1.5rem;
+  }
+  .headerContainer {
+    max-width: 100%;
+    width: 100%;
+  }
+  .headerContainer h1 {
+    font-size: 10vw;
+  }
+  .underline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .headerName {
+    max-width: 190px;
+    width: 100%;
+  }
+  .headerName h2 {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    font-size: 1.2rem;
+  }
+}
